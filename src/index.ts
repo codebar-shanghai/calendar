@@ -1,4 +1,5 @@
 import { Command } from "commander";
+import { lint_command } from "./lint.js";
 
 const program = new Command();
 
@@ -9,8 +10,12 @@ program
 program
 	.command("lint")
 	.argument("<file>", "Path to YAML data")
-	.action((file: string) => {
-		console.log(file);
+	.action(async (file: string) => {
+		try {
+			await lint_command(file);
+		} catch (err) {
+			console.log(err);
+		}
 	});
 
 program
