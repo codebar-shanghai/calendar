@@ -19,7 +19,7 @@
         "id": {
           "type": "string",
           "description": "Stable identifier; never change after publishing.",
-          "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+          "format": "uuid"
         },
         "title": {
           "type": "string",
