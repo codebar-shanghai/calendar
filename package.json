@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "lint": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "commander": "^14.0.3",
+    "ics": "^3.8.1",
     "yaml": "^2.8.2"
   }
 }
