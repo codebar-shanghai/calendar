@@ -36,7 +36,7 @@ program
 			const events = await lint_command(file);
 			await generate_calendars(events, {
 				outDir: o.outDir,
-				limitiedPerKind: o.limit,
+				limitedPerKind: o.limit,
 			});
 			console.log(`Wrote ICS files(s) to ${opts.outDir}`);
 		} catch (err) {

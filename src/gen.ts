@@ -16,7 +16,7 @@ function start_ms(e: EventRecord): number {
 
 export interface GenOptions {
 	outDir: string;
-	limitiedPerKind: number;
+	limitedPerKind: number;
 }
 
 export async function generate_calendars(events: EventRecord[], opts: GenOptions): Promise<void> {
@@ -60,7 +60,7 @@ export async function generate_calendars(events: EventRecord[], opts: GenOptions
 
 		events.sort((a, b) => start_ms(b) - start_ms(a));
 		const icsEvents = events
-			.slice(0, opts.limitiedPerKind)
+			.slice(0, opts.limitedPerKind)
 			.map(to_ics_event);
 		const icsText = make_calendar(icsEvents, calName, productId);
 		await writeFile(join(opts.outDir, name), icsText, "utf8");
