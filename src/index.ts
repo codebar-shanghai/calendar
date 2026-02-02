@@ -15,7 +15,8 @@ program
 		try {
 			await lint_command(file);
 		} catch (err) {
-			console.log(err);
+			console.error(err);
+			process.exitCode = 1;
 		}
 	});
 
@@ -39,7 +40,8 @@ program
 			});
 			console.log(`Wrote ICS files(s) to ${opts.outDir}`);
 		} catch (err) {
-			console.log(err);
+			console.error(err);
+			process.exitCode = 1;
 		}
 	});
 
