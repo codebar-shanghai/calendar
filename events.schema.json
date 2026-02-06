@@ -44,7 +44,7 @@
         "location": {
           "type": "string"
         },
-        "maps_url": {
+        "url": {
           "type": "string"
         },
         "description": {

@@ -15,18 +15,18 @@
   location: Garden Books, 325 Changle Road, Xuhui District, shanghai
 
 - id: 9193c7ad-db78-4cd6-8d6c-8ce5daef61aa
-  title: test event with location and maps_url
+  title: test event with location and url
   kind: test
   start: 2026-02-04T17:00:00+08:00
   end: 2026-02-04T18:00:00+08:00
   location: Garden Books, 325 Changle Road, Xuhui District, shanghai
-  maps_url: https://www.openstreetmap.org/#map=18/31.221825/121.452855
+  url: https://www.openstreetmap.org/#map=18/31.221825/121.452855
 
 - id: 9193c7ad-db78-4cd6-8d6c-8ce5daef2222
-  title: test event with location, maps_url and description
+  title: test event with location, url and description
   kind: test
   start: 2026-02-05T17:00:00+08:00
   end: 2026-02-05T18:00:00+08:00
   location: Garden Books, 325 Changle Road, Xuhui District, shanghai
-  maps_url: https://www.openstreetmap.org/#map=18/31.221825/121.452855
+  url: https://www.openstreetmap.org/node/4623058291
   description: foo
