@@ -11,5 +11,5 @@ export interface EventRecord {
 
 	description?: string;
 	location?: string;  // human-friendly address is usually enough
-	maps_url?: string;       // event page
+	url?: string;       // event page
 }

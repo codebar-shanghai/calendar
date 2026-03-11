@@ -4,11 +4,13 @@ on:
   pull_request:
     paths:
       - "data/events.yml"
+      - "events.schema.json"
   push:
     branches:
       - main
     paths:
       - "data/events.yml"
+      - "events.schema.json"
 
 permissions:
   contents: read

@@ -114,7 +114,7 @@ export function to_ics_event(e: EventRecord): EventAttributes {
 		title: e.title,
 		description: e.description,
 		location: e.location,
-		url: e.maps_url,
+		url: e.url,
 
 		organizer: ORGANIZER,
 		alarms: DEFAULT_ALARMS,
