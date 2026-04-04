@@ -1,6 +1,13 @@
 # DO NOT REMOVE THE FOLLOWING LINE
 # yaml-language-server: $schema=../events.schema.json
 
+- id: cc68200d-0b54-4bf7-b8a1-eed6445e3dec
+  title: Build Your First AI Skill
+  kind: workshop
+  start: 2026-04-11T14:00:00+08:00
+  end: 2026-04-11T17:00:00+08:00
+  location: 信条书店 Tenetreviver 上海市黄浦区中山南一路788号博荟广场One East
+
 - id: 734058dc-33a5-4113-ba93-0bad85aa7736
   title: Regular Workshop
   kind: workshop
